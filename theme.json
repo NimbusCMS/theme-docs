@@ -1,0 +1,20 @@
+{
+    "name": "Docs",
+    "version": "0.1.0",
+    "description": "A fast documentation + marketing theme for NimbusCMS — plain PHP templates, one hand-written stylesheet, zero JavaScript, system fonts. Extracted from nimbuscms.dev. An official theme.",
+    "nav": ["docs"],
+    "templates": {
+        "layout": "HTML shell; includes header and footer.",
+        "header": "Site header with the wordmark and the main menu.",
+        "footer": "Footer with links and the page's own measured weight.",
+        "entry-home": "The landing page (the `home` singleton).",
+        "entry": "A prose/legal page (a `pages` entry) — a centered reading column.",
+        "entry-docs": "A single documentation page, with the docs sidebar.",
+        "collection-docs": "The documentation index.",
+        "docnav": "The docs sidebar partial (the `docs` collection, grouped).",
+        "markdown": "Renders a Markdown field (pairs with the Markdown plugin).",
+        "404": "Themed not-found page."
+    },
+    "specialization": "entry-home renders the `home` singleton; entry-docs / collection-docs render a `docs` collection with a sidebar. Drop the docs templates (and the `nav` key) to use it as a plain marketing + prose site.",
+    "assets": "Files under assets/ are served at /theme/assets/<path> (e.g. assets/app.css -> /theme/assets/app.css). Allowlisted types only; no PHP."
+}
