@@ -1,5 +1,5 @@
 {
-    "name": "Docs",
+    "name": "Lumos",
     "version": "0.1.0",
     "description": "A fast documentation + marketing theme for NimbusCMS — plain PHP templates, one hand-written stylesheet, zero JavaScript, system fonts. Extracted from nimbuscms.dev. An official theme.",
     "nav": ["docs"],
